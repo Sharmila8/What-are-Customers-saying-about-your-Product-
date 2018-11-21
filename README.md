@@ -8,22 +8,22 @@ The objective of my project is to identify the key features of a product that ar
 
 **Data set**:
 
-I originally planned to use the publicly available dataset of amazon reviews on AWS. I am currently analyzing that dataset on AWS, but fot this analysis I used the dataset on amazon reviews from kaggle.com.For this analysis I focussed on 2 products' 'Amazon Paperwhite Kindle' and 'Amazon HD 8 Firetablet."
+I originally planned to use the publicly available dataset of amazon reviews on AWS. I am currently analyzing that dataset on AWS, but for this analysis I used the dataset on amazon reviews from kaggle.com.For this analysis I focussed on 2 products' 'Amazon Paperwhite Kindle' and 'Amazon HD 8 Firetablet."
 
 **Analysis**
 
-I used NLP to extract text from the online reviews.To extract product freatures from text comments, I used LDA topic modeling on cleaned text comments.With topic modeling I selected the top 5 features topics for both the products. To extract the sentiment associated with different product features, I used sentiment analysis on the text comments.The sentiment analysis was performed on each comment.To better understand the effect of each topic on the overall sentiment of the comments, a random forest regrssor was used.The model was selected because it provides values to important features which can provide information about relation between each topic and the overall sentiment.Once I found the impirtant features for each product, I built a chat bot to assist customers in knowing about diffrent features of the 2 products.
+I used NLP to extract text from online reviews.To extract product freatures from text comments, I used LDA topic modeling on cleaned text comments.With topic modeling I selected the top 5 features topics for both the products. To extract the sentiment associated with different product features, I used sentiment analysis on the text comments.The sentiment analysis was performed on each comment.To better understand the effect of each topic on the overall sentiment of the comments, a random forest regrssor was used.The model was selected because it provides values to important features which can provide information about relation between each topic and the overall sentiment.Once I found the important features for each product, I built a chat bot to assist customers in knowing about diffrent features of the 2 products.
 
 **Findings**
 This analysis was conducted on 'Amazon Paperwhite Kindle' and 'Amazon HD 8 Fire Tablet".
 
 **Amazon HD 8 Fire Tablet**
 
-Overall customers viewed all the features for this product with a positive sentiment.They were more satisfied with the price and the batter life of the product compared to other features like screen size, games and app.
+Overall customers viewed all the features for this product with a positive sentiment.They were more satisfied with the price and the battery life of the product compared to other features like screen size, games and app.
 
 **Amazon Kindle Paperwhite**
 
-Overwll customers were satisfied with all features for this product.Ther were slightly more happy witht he battery life of this product compared to its other features.
+Overall customers were satisfied with all features for this product.Ther were slightly more happy witht the battery life of this product compared to its other features.
 
 **Currently in Progress**
 
